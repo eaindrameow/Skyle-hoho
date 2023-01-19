@@ -1,0 +1,199 @@
+.col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+
+body{
+  margin: 0;
+  overflow-x: hidden; 
+  background-color: #e6f5f1;
+}
+.LayoutOne{
+  background-color: #f0fafc;
+}
+    .header{
+     position: fixed;
+     margin-right: 0;
+     margin-top: 0;
+     background-color: white;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .TopLeftLogo, .HotelName, .nav{
+    float: left;
+        margin: 0;
+  }
+  .TopLeftLogo{
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+    .Logo{
+      width: 100px;
+    }
+    .HotelName{
+      width: 130px;
+    }
+    .Name{
+      padding-left: 20%;
+      padding-top: 15%;
+      width: 90%;
+    }
+    nav{
+      width: 100%;
+    }
+
+ul {
+   width: 100%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-top: 2%;
+  font-size: 110%;
+  overflow: hidden;
+  text-transform: uppercase;
+  
+}
+
+nav li {
+  display: inline-block
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-family: Helvetica Neue;
+}
+
+nav li a:hover {
+  box-shadow: inset 200px 0 0 0 lavender;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.Sign{
+  margin-top: 32px;
+  display: inline-block;
+
+}
+
+.SignUp{
+  text-decoration: none; 
+  color: mediumpurple;
+  border: 2px solid mediumpurple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 40px;
+}
+.SignUp:hover{
+  background-color: mediumpurple;
+  color: #ffffff;
+
+}
+.SignIn{
+  text-decoration: none; 
+  color: palevioletred;
+  border: 2px solid palevioletred;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.SignIn:hover{
+  background-color: palevioletred;
+  color: #ffffff;
+
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.Title{
+  color: #737373;
+}
+.Image{
+  padding: 2.3%;
+  width: 95%;
+}
+
+.Contents {
+  padding: 0 16px;
+}
+
+ 
+
+.Contents::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ 
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+ 
+
+.button:hover {
+  background-color: #555;
+}
+
+.First{
+  margin-left: 6%;
+}
+
+.Second{
+  margin-left: 6%;
+}
+
+.Third{
+  margin-left: 6%;
+}
+.Fourth{
+  margin-left: 6%;
+}
+.Fifth{
+  margin-left: 6%;
+}
+@media screen and (max-width: 650px) {
+  .Card {
+    width: 50%;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 969px) {
+  .Card {
+    width: 100%;
+    display: block;
+  }
+}

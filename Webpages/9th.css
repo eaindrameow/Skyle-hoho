@@ -1,0 +1,46 @@
+body{
+    overflow-x: hidden; 
+}
+.Header{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1%;
+    margin: 0;
+}
+.SKYLE{
+	display: inline-block;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 130%;
+    color: #6b8785;
+}
+.SKYLE{
+      font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+ul {
+    box-sizing: border-box;
+   width: 70%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+   margin-top: 0;
+  font-size: 110%;
+  overflow: hidden;
+  text-transform: uppercase;
+  
+}
+
+nav li {
+  display: inline-block
+}
+
+nav li a {
+  display: block;
+  color: black;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-family: Helvetica Neue;
+}

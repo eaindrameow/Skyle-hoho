@@ -1,0 +1,162 @@
+body{
+    overflow-x: hidden; 
+}
+.Header{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1%;
+    margin: 0;
+}
+.SKYLE{
+  display: inline-block;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 130%;
+    color: #6b8785;
+}
+.SKYLE{
+      font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+ul {
+    box-sizing: border-box;
+   width: 70%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+   margin-top: 0;
+  font-size: 110%;
+  overflow: hidden;
+  text-transform: uppercase;
+  
+}
+
+nav li {
+  display: inline-block
+}
+
+nav li a {
+  display: block;
+  color: black;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-family: Helvetica Neue;
+}
+.Sign{
+  margin-top: 32px;
+  display: inline-block;
+
+}
+
+.SignUp{
+  text-decoration: none; 
+  color: mediumpurple;
+  border: 2px solid mediumpurple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 40px;
+}
+.SignUp:hover{
+  background-color: mediumpurple;
+  color: #ffffff;
+
+}
+.SignIn{
+  text-decoration: none; 
+  color: palevioletred;
+  border: 2px solid palevioletred;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.SignIn:hover{
+  background-color: palevioletred;
+  color: #ffffff;
+}
+.First{
+  width:100%;
+}
+.Second{
+  width: 100%;
+}
+div.elem-group {
+  margin: 20px 0;
+}
+
+ 
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+ 
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+ 
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+ 
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+ 
+
+textarea {
+  height: 250px;
+}
+
+ 
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+ 
+
+button {
+  background: #6b8785;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: "Garamond";
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1%;
+}
+
+ 
+
+button:hover {
+  border: 2px solid black;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
